@@ -1,0 +1,24 @@
+{
+  "name": "pepperonas-last-push",
+  "owner": {
+    "name": "Martin Pfeffer",
+    "email": "martin.pfeffer@celox.io",
+    "url": "https://celox.io"
+  },
+  "metadata": {
+    "description": "Claude Code mods by Martin Pfeffer (celox.io)"
+  },
+  "plugins": [
+    {
+      "name": "last-push",
+      "source": "./",
+      "description": "When this project was last committed and pushed, in one line under the Claude Code prompt: unpushed commits, uncommitted files, staleness colour and a reminder",
+      "version": "0.1.0",
+      "author": { "name": "Martin Pfeffer", "url": "https://celox.io" },
+      "homepage": "https://github.com/pepperonas/last-push",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["mod", "git", "push", "commit", "status", "ui"]
+    }
+  ]
+}

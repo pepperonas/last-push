@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- last-push listing icon: a commit graph whose newest commit is going up.
+       Rendered to .claude-plugin/icon.png (1024 px) by `npm run screenshots`. -->
+  <rect width="1024" height="1024" fill="#0d1117"/>
+  <!-- the branch line -->
+  <rect x="300" y="250" width="40" height="560" rx="20" fill="#30363d"/>
+  <!-- older commits, already on the remote -->
+  <circle cx="320" cy="760" r="64" fill="#3fb950"/>
+  <circle cx="320" cy="560" r="64" fill="#3fb950"/>
+  <!-- the newest commit, waiting -->
+  <circle cx="320" cy="360" r="64" fill="#d29922"/>
+  <!-- the push arrow -->
+  <path d="M 560 760 L 560 330" stroke="#79c0ff" stroke-width="56" stroke-linecap="round" fill="none"/>
+  <path d="M 430 440 L 560 290 L 690 440" stroke="#79c0ff" stroke-width="56" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- the remote -->
+  <rect x="440" y="170" width="380" height="56" rx="28" fill="#e6edf3"/>
+</svg>

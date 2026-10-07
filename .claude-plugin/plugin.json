@@ -1,0 +1,45 @@
+{
+  "name": "last-push",
+  "version": "0.1.0",
+  "description": "When this project was last committed and pushed, in one line under the Claude Code prompt: unpushed commits, uncommitted files, staleness colour and a reminder",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "Display",
+      "description": "full: the whole line · compact: symbols only · off: hidden",
+      "default": "full"
+    },
+    "reminders": {
+      "type": "boolean",
+      "title": "Reminders",
+      "description": "A toast when commits sit unpushed, or files uncommitted, longer than the stale time — once per state",
+      "default": true
+    },
+    "remindAfter": {
+      "type": "number",
+      "title": "Stale after (hours)",
+      "description": "Hours until waiting work turns red and the reminder fires; 0 turns both off",
+      "default": 4,
+      "min": 0,
+      "max": 720
+    }
+  },
+  "author": {
+    "name": "Martin Pfeffer",
+    "email": "martin.pfeffer@celox.io",
+    "url": "https://celox.io"
+  },
+  "homepage": "https://github.com/pepperonas/last-push",
+  "repository": "https://github.com/pepperonas/last-push",
+  "license": "MIT",
+  "keywords": [
+    "mod",
+    "function-hooks",
+    "ui",
+    "git",
+    "push",
+    "commit",
+    "status"
+  ]
+}

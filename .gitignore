@@ -1,0 +1,6 @@
+node_modules/
+.claude-plugin/types/
+.DS_Store
+docs/.render/
+package-lock.json
+temp/
