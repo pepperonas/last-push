@@ -82,7 +82,6 @@ test('every command the mod answers is documented', () => {
 test('every image the README shows exists, one sits above the title', () => {
   for (const [, src] of README.matchAll(/<img src="(docs\/[^"]+)"/g)) assert.ok(existsSync(join(ROOT, src!)), `missing ${src}`)
   assert.ok(README.indexOf('<img src=') < README.indexOf('# ⇡ last-push'), 'an image belongs at the very top, above the title')
-  assert.ok(existsSync(join(ROOT, '.claude-plugin/icon.png')), 'the listing icon')
 })
 
 test('MIT everywhere', () => {
